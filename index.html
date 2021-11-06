@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <title>InstaSamplePost</title>
+        <style>
+            #container{
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #SafeImage {
+                display: flex;
+                align-items: center;
+                width: 370px;
+                border-top: 1px solid lightslategray;
+            }
+            #SafeImage img {
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+
+
+            }
+            #icons {
+                display: flex;
+                align-content:flex-start ;
+                width: 370px;
+            }
+            #text {
+                width: 370px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            .comment-wrapper{
+            border:none;
+            border-radius:3px solid #565656;
+            display:flex;
+            }
+           
+           .comment-btn{
+           border:none;
+           outline:none;
+           opacity:0.8;
+           }
+           .comment-box{
+           border-top:none;
+           border-left:none;
+           border-right:none;
+           }
+           
+          .icon{
+          height:20px;
+          float:left;
+          }
+          footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin-top: 77vh;
+}
+
+        </style>
+    </head>
+
+    <body>
+        <!-- container div -->
+ <div id="container">
+            <!-- SafeImage div -->
+<div id="SafeImage">
+ <img src="BabyGirls.jpg" alt="" style="justify-self: flex-start;">
+     <p style="padding-left: 10px; flex: 1;">
+        <b>Garima_Pawar</b><br>Pune,Maharashtra</p>
+ <span class="material-icons" style="justify-self: left;">
+                    more_vert
+     </span>
+            </div>
+            <!-- Image div -->
+            <div id="PageImage">
+     <img style="height:400px; width:390px"src="PageImage.jpg" alt="">
+
+            </div>
+            <!-- Icons div -->
+            <div id="icons">
+ <span class="material-icons" style="margin-right: 10px; margin-top: 4px;font-size:40px;" >
+                    favorite_border
+                </span>
+                
+                <span class="material-icons" style="margin-right: 10px; margin-top: 4px;font-size:40px;">
+                    chat_bubble_outline
+                    </span>
+
+  <span class="material-icons" style="transform: rotate(-30deg);font-size:40px;">
+                    send
+   </span>
+
+    <span style="flex: 1;"> </span>
+
+                <span class="material-icons" style="margin-top: 4px;font-size:40px;">
+                    bookmark_border
+                    </span>
+            </div>
+            <!-- text div -->
+   <div id="text" style="margin-top: 5px;">
+   
+        <span style="font-style: italic; margin-right: 4px;margin-left:5px;">Liked by 
+                 <b>Rahul_Choudhary </b>  and <b> 2,4677</b></span>
+                 <p>I’m an original and that’s perfection in itself </p>
+  <p style="color:dodgerblue;"><em> #likeforlike #followforfollow #likeforMore #instaTag #facecute #Cutegirls #makeup #eyes #eyelases #fitness #girl #Garima #model</p>
+            </div>
+            <!-- Comment Box -->
+     <div class="comment-wrapper">
+    <img src="ImageSmile.jpg" class="icon" alt="">
+   <input type="text"style="padding-left:10px;font-size:20px;" class="comment-box" placeholder="Add a comment here">
+ <button class="comment-btn"style="margin-left: 35px;padding-left:17px;padding-right:17px;border-radius:30px; background-color:yellow;">post</button>
+                </div>
+                
+        </div>
+        <footer>
+            <small>
+                Designed by Garima_Pawar ( Garima ) With 💚
+            </small>
+        </footer>
+    </body>
+</html>
